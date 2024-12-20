@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 
 
 public interface FxPlugin {
-    Optional<String> getId();
+    Optional<String> getPId();
     Optional<String> getName();
     Optional<String> getVersion();
     Optional<String> getAuthor();
